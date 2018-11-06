@@ -1,38 +1,39 @@
 html {
   box-sizing: border-box;
-  font-family: Open Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.5;
-  }
+}
 
-  *, *::before, *::after {
+*, *::before, *::after {
   box-sizing: inherit;
-  }
+}
 
 .cards {
   display: flex;
 }
-  .cards div {
+
+.cards div {
   display: flex;
   flex-direction: column;
   border: 1px solid #000;
-  }
+}
 
 h2 {
   padding: 1.5rem;
   text-align: center;
-  }
+}
 
 .btn {
- display: inline-block;
- font-size: 1.125rem;
- padding: .4em .75em .3em;
- text-decoration: none;
- border-radius: 8px;
- border: 3px;
+  display: inline-block;
+  font-size: 1.125rem;
+  padding: .4em .75em .3em;
+  text-decoration: none;
+  border-radius: 8px;
+  border: 3px;
 }
 
 .btn:hover {
- background-color: #000;
+  background-color: #000;
 }
 
 .btn-small {
@@ -65,4 +66,8 @@ img {
 div {
   padding-top: .75rem;
   padding-bottom: .75em;
+}
+
+.cards p {
+  flex-grow: 1;
 }
