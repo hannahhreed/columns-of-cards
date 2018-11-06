@@ -1,0 +1,12 @@
+html {
+  box-sizing: border-box;
+  font-family: Open Sans, sans-serif;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+  };
+
+  h1 {
+    background-color: #f2f2f2;
+  }
